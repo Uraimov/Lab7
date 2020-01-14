@@ -18,4 +18,3 @@ browser.find_element_by_css_selector("[value='" + z + "']").click()
 
 option3 = browser.find_element_by_tag_name('button')
 option3.submit()
-
