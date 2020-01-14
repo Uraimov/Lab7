@@ -21,6 +21,5 @@ x = x_element.text
 y = calc(x)
 input1 = driver.find_element_by_id('answer')
 input1.send_keys(y)
-
 option4 = driver.find_element_by_id('solve')
 option4.submit()
