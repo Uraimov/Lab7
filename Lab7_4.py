@@ -18,3 +18,4 @@ driver.execute_script("return arguments[0].scrollIntoView(true);", option3)
 option2 = driver.find_element_by_css_selector("[for='robotsRule']")
 option2.click()
 option3.submit()
+
